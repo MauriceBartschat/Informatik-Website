@@ -1,0 +1,47 @@
+h1 {
+    color: lightgrey;
+    font-size: xxx-large;
+    font-family: Arial, serif;
+}
+
+h2 {
+    color: lightgrey;
+    font-size: xx-large;
+    font-family: Arial, serif;
+}
+
+a {
+    font-size: large;
+    color: white;
+    font-family: Arial, serif;
+}
+
+h3 {
+    color: lightgrey;
+    font-size: xx-large;
+    font-family: Arial, serif;
+}
+body {
+    width: 99%;
+    height: 100%;
+    background-image: url("black-370118_960_720.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#Im, #Ih {
+    color: white;
+    font-family: Arial, serif;
+}
+#p1 {
+    width: 500px;
+    opacity: 90%;
+}
+#p2 {
+    opacity: 60%;
+}
+h4 {
+    color: white;
+    font-family: Arial, serif;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lustiger BMI-Rechner</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/main.js"></script>
+</head>
+<body style = "text-align:center;">
+    <h1>Lustiger BMI-Rechner</h1>
+    <h2>Definition BMI:</h2>
+    <br>
+    <a>Der Body-Mass-Index – auch Körpermasseindex, Körpermassenzahl oder Quetelet-Kaup-Index – ist eine Maßzahl für die Bewertung des Körpergewichts eines Menschen in Relation zu seiner Körpergröße.</a>
+    <br>
+    <h3>Body-Mass-Index berechnen:</h3>
+    <div id="Im">
+        <label for="InputMass"></label>
+        <input type="text" name="mass" id="InputMass" class="item"> kg
+    </div>
+    <div id="Ih">
+        <label for="InputHeight"></label>
+        <input type="text" name="height" id="InputHeight" class="item">cm
+    </div>
+    <br>
+    <button style="font-family: Arial, serif" onclick="setBmi()" class="item">Drueck mich Chef</button>
+    <p style="color: white" id="Result" class="item"></p>
+    <h4>Folgende Sachen koennen helfen:</h4>
+
+<figure style="color: white">
+    <figcaption style="font-family: Arial, serif">Gesunde Ernaehrung</figcaption>
+    <img src="ernaehrung-f-111775068-jpg--71601-.jpg" alt="Gesunde Ernaehrung" id="p1">
+</figure>
+<figure style="color: white">
+    <figcaption style="font-family: Arial, serif">Fitness Studio</figcaption>
+    <img src="+.jpg" alt="Gym" id="p2">
+    <br>
+    <a href="https://www.temple-of-motion.de/">Link zum Fitness Studio</a>
+</figure>
+</body>
+</html>
